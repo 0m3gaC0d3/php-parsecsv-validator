@@ -1,0 +1,38 @@
+{
+    "name": "omegacode/php-parsecsv-validator",
+    "description": "This lib adds some validation APIs to validate CSV objects.",
+    "type": "library",
+    "keywords": [
+        "csv",
+        "validation"
+    ],
+    "require": {
+        "parsecsv/php-parsecsv": "^1.1",
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wolf-Peter Utz",
+            "email": "wpu@hotmail.de"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "OmegaCode\\PhpParsecsvValidator\\": "src"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "OmegaCode\\PhpParsecsvValidator\\tests\\": "tests"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.0"
+        }
+    }
+}
